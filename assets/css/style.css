@@ -196,6 +196,7 @@ h6 {
 .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
+  background-color: transparent;
 }
 
 .nav-menu a:hover i,
@@ -365,6 +366,15 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about a {
+  text-decoration: none;
+}
+
+#about a:hover {
+  color: #040b14;
+  background-color: transparent;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
