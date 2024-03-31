@@ -103,6 +103,7 @@ h6 {
 #header .profile h1 a,
 #header .profile h1 a:hover {
   color: #fff;
+  background-color: transparent;
   text-decoration: none;
 }
 
