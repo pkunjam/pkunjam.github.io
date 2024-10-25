@@ -129,28 +129,19 @@
                 <h2 style="text-align: justify;">Key Contributions</h2>
                 <ul style="text-align: justify;">
 
-                  <li>Developed a terrain generation algorithm using Perlin noise, allowing for the creation of natural landscapes with
-                  adjustable parameters. This contribution involved fine-tuning noise parameters to produce varied and realistic terrains.</li>
+                  <li>Developed and integrated a custom procedural terrain generation system using Perlin noise and advanced shader techniques, 
+                    incorporating GPT-4 for dynamic terrain modifications based on high-level, natural language prompts, enhancing accessibility 
+                    for non-technical users.</li>
+
+                  <li>Enabled AI-driven terrain customization, showcasing advanced prompt engineering and LLM integration in interactive graphics</li>
                   
-                  <li>Integrated LLM input to allow users to modify terrain parameters dynamically via natural language prompts. 
-                    Users can adjust parameters like mountain height, water level, number of octaves, and more, providing a more intuitive and 
-                    interactive approach to terrain design.</li>
+                  <li>Leveraged GPT-4 function-calling to extract structured data for real-time modification of terrain parameters (e.g., ruggedness, frequency).</li>
 
-                  <li>Added normal mapping to enhance surface detail and realism without increasing the complexity of the terrain mesh. This
-                  involved integrating normal maps and adjusting lighting calculations to account for perturbed normals.</li>
+                  <li>Designed a robust system to parse complex, high-level commands from natural language into precise graphical parameter adjustments, utilizing 
+                    embeddings and similarity search to interpret varied terrain modification requests.</li>
 
-                  <li>Created a reflective and refractive water surface with dynamic wave animations. This feature required the implementation
-                  of framebuffers for capturing reflections and refractions, as well as shader development to simulate realistic water
-                  behavior.</li>
-
-                  <li>Developed a skybox to encapsulate the scene, providing an immersive background that simulates distant landscapes and
-                  skies. This included the design of the skybox cube and texture mapping for each face.</li>
-
-                  <li>Incorporated Phong lighting into the scene to provide realistic illumination across the terrain. This contribution
-                  included the development of shaders to handle ambient, diffuse, and specular lighting components.</li>
-
-                  <li>Implemented an Arcball camera system to enable smooth panning, rotation, and zooming around the terrain. This system was
-                  designed to offer intuitive user control for exploring the generated landscape.</li>
+                  <li>Deployed infrastructure to locally run and fine-tune open-source LLMs for low-latency, high-efficiency interaction, optimizing prompt engineering 
+                    to achieve accurate terrain representations based on vague or abstract prompts. <b>[In Progress]</b></li>
                 </ul>
               </p>
 
@@ -159,7 +150,7 @@
               
                 <li><b>Programming Language:</b> C++, GLSL</li>
               
-                <li><b>Graphics API:</b> OpenGL</li>
+                <li><b>API:</b> OpenGL, OpenAI, Llama</li>
               
                 <li><b>Libraries:</b> GLFW, GLAD, glm, ImGui, libcurl, nlohmann/json</li>
               
